@@ -1,0 +1,9 @@
+.signup-left-section {
+  background-image: url("../../Assests/Images/signup.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.error-message {
+  color: red;
+}

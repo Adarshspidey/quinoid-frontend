@@ -66,7 +66,12 @@ const Login = () => {
               <Button type="primary" mode="submit" label="Login" />
               <div className="login-signup-alert">
                 Don't have an Account?{" "}
-                <span className="login-alert-bold">Sign up</span>
+                <span
+                  className="login-alert-bold"
+                  onClick={() => navigate("/signup")}
+                >
+                  Sign up
+                </span>
               </div>
             </div>
           </form>
