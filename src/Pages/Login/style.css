@@ -1,0 +1,60 @@
+.login-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.login-left-section {
+  background-image: url("../../Assests/Images/login.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.login-right-section {
+  display: grid;
+  place-items: center;
+}
+
+.form-wraper {
+  width: 500px;
+  padding: 40px;
+  box-shadow: 0px 6px 60px 0px #00000014;
+  border-radius: 20px;
+}
+
+.forms {
+  display: grid;
+  gap: 15px;
+}
+
+.login-header {
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.form-label {
+  color: #82869a;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.login-signup-alert {
+  font-size: 13px;
+  color: #82869ad9;
+  text-align: center;
+}
+
+.login-alert-bold {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.login-alert-bold:hover{
+    border-bottom: 1px solid #82869ad9;
+}

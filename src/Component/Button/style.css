@@ -1,0 +1,19 @@
+.button {
+  width: 140px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.button-primary {
+  background-color: #2b7df7;
+  color: #fff;
+}
+
+.button-secondary {
+  color: #2b7df7;
+  border: 1px solid #2b7df7;
+  font-weight: 400;
+  background: none;
+}

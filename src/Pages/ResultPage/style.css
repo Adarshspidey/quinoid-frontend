@@ -1,0 +1,57 @@
+.result-wraper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.result-body {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.result-note-wraper {
+  width: 1000px;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.result-text,
+.result-text-bold {
+  font-size: 14px;
+  color: #555555;
+}
+
+.result-text-bold {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.score-summary {
+  color: #2b7df7;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.progress-wraper {
+  display: grid;
+  place-items: center;
+  gap: 30px;
+}
+
+.score-summary-label {
+  font-size: 16px;
+}
+
+.note-wraper {
+  width: 100%;
+  padding: 40px;
+  margin-top: 40px;
+  border: 0.82px solid #b6b6b680;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
